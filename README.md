@@ -1,1 +1,3 @@
-This is my own login and register page 
+This is a simple login and register page
+
+just trying out things
