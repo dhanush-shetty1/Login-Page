@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url("abc.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper{
+    color: white;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    border: 2px solid rgba(0,0,0,.2);
+    width: 420px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.wrapper h1{
+    margin: 20px 0;
+    text-align: center;
+    font-size: 36px;
+}
+
+
+.input-box {
+    position: relative;
+    width: 100%;
+    margin: 15px 0;
+}
+
+
+.input-box i {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: black;
+    font-size: 20px;
+}
+
+
+.input-box input {
+    width: 100%;
+    padding: 10px 10px 10px 40px;  
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+
+.wrapper .agree {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    font-size: 14px;
+}
+
+.wrapper .agree input {
+    margin-right: 10px;
+    transform: scale(1.1);
+}
+
+
+button {
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: lightgray;
+}
