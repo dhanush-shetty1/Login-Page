@@ -1,4 +1,4 @@
-This is a simple login and register page
+This is a simple login and register page made
 
 just trying out things
 
