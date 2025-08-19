@@ -1,4 +1,4 @@
-This is a simple login and register page made using html and
+This is a simple login and register page made using html and css
 
 just trying out things
 
